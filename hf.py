@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 MODELS = getattr(
     config, 
     "HF_MODELS",
-    ["deepseek-ai/DeepSeek-V3"],
+    ["MiniMaxAI/MiniMax-M1-80k"],
 )
 
 def generate_response(prompt: str, temperature: float = 0.3, max_tokens: int = 512) -> str:
