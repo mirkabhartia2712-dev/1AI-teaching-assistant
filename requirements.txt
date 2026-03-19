@@ -5,4 +5,4 @@ groq
 
 streamlit
 python-dotenv
-hf
+huggingface_hub
