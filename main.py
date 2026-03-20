@@ -1,6 +1,6 @@
 
 
-from hf import generate_response
+from openai import generate_response
 
 
 import re
